@@ -1,0 +1,798 @@
+body , h2 , h1 , p , h3{
+    margin: 0;
+    font-family: sans-serif;
+    color: rgb(51, 51, 51);
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+.text-center{
+    text-align: center;
+}
+.inline-block{
+    display: inline-block;
+}
+/* start of nav bar */
+.nav{
+    z-index: 9999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 16px 24px;
+    background-color: rgb(245, 243, 255);
+    border-bottom: 1px solid rgb(221, 214, 255);
+}
+.left-sec img , .home-right-subsec3 .btn1 img , .left-sec-img .img1{
+    width: 20px;
+    filter: brightness(0) invert(1);
+}
+.left-sec-img {
+    width: 20px; 
+    padding: 11px 10px;
+    padding-bottom: 7px;
+    background-color:rgb(142, 81, 255) ;
+    border-radius: 8px;
+    margin-right: 8px;
+}
+.left-sec{
+    width: 40%;
+}
+.left-sec h2{
+    padding-top: 5px;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    color: rgb(51, 51, 51);
+}
+.right-sec{
+    padding-top: 5px;
+    padding-right: 50px;
+}
+.right-sec a{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: rgb(51, 51, 51);
+    padding-right: 30px;
+    text-decoration: none;
+}
+.right-sec a span{
+    position: relative;
+}
+.right-sec a span::after{
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    /* margin-top: 2px; */
+    height: 2px;
+    width: 100%;
+    background-color: rgb(51, 51, 51) ;
+}
+/* end of nav bar */
+
+/* start of home section */
+.home-sec{
+    padding: 176px 24px 96px;
+    /* height: 400px; */
+    /* background-color: aqua; */
+}
+.home-left-sec{
+    padding: 20px;
+    border-radius: 20px;
+    width: 43%;
+    border: 2px solid rgb(209, 213, 220) ;
+}
+.sub-home-left{
+    /* padding: 20px; */
+    /* background-color: black; */
+    width: 100%;
+    height: 88vh;
+    background-image: url(../imgs/imgi_1_hero-img-CYauTLx2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    border-radius: 15px;
+}
+.sub-home-left-sub{
+    color: white;
+    border-radius: 30px;
+    padding: 4px 12px;
+    background-color: rgb(142, 81, 255);
+    background-origin: border-box;
+    transform: translateY(20px);
+    margin-left: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+}
+.home-right-sec{
+    /* background-color: blue; */
+    width: 47%;
+}
+.home-right-subsec1 , .home-right-subsec2{
+    margin-bottom: 32px;
+}
+.home-right-subsec1 .span span{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 15px;
+    background-color: rgb(166, 132, 255);
+    margin-right: 6px;
+}
+.span{
+    margin-bottom: 16px;
+}
+.home-right-subsec1 h1 span{
+    color: oklch(0.606 0.25 292.717);
+}
+.home-right-subsec1 h1{
+    margin-bottom: 16px;
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 700;
+    color: rgb(51, 51, 51);
+}
+.home-right-subsec1 p{
+    font-size: 20px;
+    line-height: 33px;
+    font-weight: 400;
+}
+.span-sec{
+    margin-bottom: 16px;
+}
+.home-right-subsec2 .span1{
+    margin-right: 16px;
+     font-size: 36px;
+    line-height: 40px;
+    font-weight: 700;
+    color: rgb(51, 51, 51);
+}
+.home-right-subsec2 .span2{
+    margin-right: 16px;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+    color: rgb(51, 51, 51);
+    text-decoration: line-through;
+}
+.home-right-subsec2 .span3{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    color: oklch(0.577 0.245 27.325);
+    padding: 6px 12px;
+    background-color: rgb(255, 226, 226);
+    border-radius: 15px;
+}
+.home-right-subsec2 p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: rgb(51, 51, 51);
+}
+.home-right-subsec3 .btn1{
+    width: 100%;
+    padding: 16px 32px;
+    margin-bottom: 16px;
+    border-radius: 40px;
+    border-color: transparent;
+    color: white;
+    background-color: rgb(142, 81, 255);
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+}
+.home-right-subsec3 .btn1 img{
+    margin-right: 12px;
+    width: 22px;
+}
+.home-right-subsec3 .btn2{
+    width: 100%;
+    padding: 16px 32px;
+    margin-bottom: 16px;
+    border-radius: 40px;
+    border: 2px solid rgb(209, 213, 220);
+    background-color: white;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+}
+.home-right-subsec3 .btn2 img{
+    margin-right: 12px;
+    width: 22px;  
+}
+/* end of home section */
+
+/* start of specifications section */
+.specifications-sec{
+    padding: 80px 24px;
+    background-color: rgb(247, 245, 255);
+}
+.specifications-subsec1{
+    margin-bottom: 64px;
+}
+.specifications-subsec1 h2 , .ReviewsSection-subsec1 h1 , .RelatedProducts-sec .subsec1 h1{
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.specifications-subsec1 span , .ReviewsSection-subsec1 span , .RelatedProducts-sec .subsec1 span{
+    color: rgb(142, 81, 255);
+}
+.specifications-subsec1 p , .ReviewsSection-subsec1 p , .RelatedProducts-sec .subsec1 p{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+}
+.specifications-subsec2{
+    padding: 32px;
+    background-color: white;
+    border: 2px solid rgb(209, 213, 220);
+    border-radius: 25px;
+}
+.specifications-table{
+    width: 100%;
+}
+.specifications-table th{
+    padding: 24px 16px;
+}
+.specifications-table th h4{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.specifications-table thead .col1 h4{
+    font-weight: 600px;
+}
+.specifications-table thead .col2 h4{
+    color: oklch(0.491 0.27 292.581);
+}
+.specifications-table th p{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    color: oklch(0.551 0.027 264.364);
+}
+.specifications-table thead .col2 p{
+    font-weight: 500;
+    color: oklch(0.606 0.25 292.717);
+}
+.specifications-table .col2{
+    background-color: rgb(237, 233, 254);
+}
+.specifications-table thead .col2{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.specifications-table thead th{
+    border-bottom: 2px solid rgb(218, 222, 227);
+}
+.specifications-table .col1{
+    width: 25%;
+    text-align: left;
+}
+.specifications-table tbody td{
+    padding: 16px;
+}
+.specifications-table tbody .row img{
+    width: 18px;
+    margin-right: 8px;
+}
+.specifications-table tbody .row1 .col1 img{
+    filter: brightness(0) saturate(100%) invert(57%) sepia(34%) saturate(7303%) hue-rotate(156deg) brightness(104%) contrast(102%);
+}
+.specifications-table tbody .row2 .col1 img{
+    filter: brightness(0) saturate(100%) invert(75%) sepia(66%) saturate(6461%) hue-rotate(140deg) brightness(99%) contrast(101%);
+    width: 15px;
+}
+.specifications-table tbody .row3 .col1 img{
+    filter: brightness(0) saturate(100%) invert(53%) sepia(31%) saturate(4711%) hue-rotate(110deg) brightness(102%) contrast(102%);
+    width: 20px;
+}
+.specifications-table tbody .row4 .col1 img{
+    filter: brightness(0) saturate(100%) invert(74%) sepia(64%) saturate(7500%) hue-rotate(2deg) brightness(102%) contrast(106%);
+    width: 16px;
+}
+.specifications-table tbody .row5 .col1 img{
+    filter: brightness(0) saturate(100%) invert(30%) sepia(66%) saturate(5374%) hue-rotate(342deg) brightness(98%) contrast(101%);
+    width: 16px;
+}
+.specifications-table tbody .row6 .col1 img{
+    filter: brightness(0) saturate(100%) invert(67%) sepia(58%) saturate(6443%) hue-rotate(168deg) brightness(99%) contrast(103%);
+    width: 16px;
+}
+.specifications-table tbody .row6 .sharedcol{
+    color: rgb(245, 74, 0);
+}
+.specifications-table tbody .row7 .col1 img{
+    filter: brightness(0) saturate(100%) invert(32%) sepia(89%) saturate(2696%) hue-rotate(231deg) brightness(104%) contrast(101%);
+    width: 20px;
+}
+.specifications-table tbody .row8 .col1 img{
+    filter: brightness(0) saturate(100%) invert(44%) sepia(33%) saturate(6114%) hue-rotate(204deg) brightness(102%) contrast(101%);
+    width: 15px;
+}
+.specifications-table tbody .row8 .sharedcol img{
+    width: 12px;
+    filter: brightness(0) saturate(100%) invert(39%) sepia(41%) saturate(6180%) hue-rotate(3deg) brightness(96%) contrast(105%);
+}
+.specifications-table tbody .row8 .col3 , .specifications-table tbody .row8 .col5{
+    color: rgb(245, 74, 0); 
+}
+.specifications-table tbody .row9 .col1 img{
+    filter: brightness(0) saturate(100%) invert(68%) sepia(78%) saturate(597%) hue-rotate(359deg) brightness(90%) contrast(111%);
+    width: 10px;
+}
+.specifications-table tbody .col2 img{
+    width: 12px;
+    margin-right: 4px;
+    filter: brightness(0) invert(1);
+}
+.specifications-table tbody .col2 div{
+    background-color: rgb(142, 81, 255);
+    border-radius: 30px;
+    padding: 4px 12px;
+    color: white;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+}
+.specifications-table tbody .row9 .col2{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    color: oklch(0.491 0.27 292.581);
+}
+.specifications-table tbody .row10 .col1 , .specifications-table tbody .row10 .col2{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+    color: rgb(51, 51, 51);  
+}
+.specifications-table tbody .row10 img{
+    width: 20px;
+    filter: brightness(0) saturate(100%) invert(71%) sepia(55%) saturate(1864%) hue-rotate(3deg) brightness(108%) contrast(102%);
+}
+.specifications-table tbody .row10 .img5{
+    width: 20px;
+    filter: brightness(0) saturate(100%) invert(94%) sepia(6%) saturate(210%) hue-rotate(181deg) brightness(92%) contrast(88%);
+}
+.specifications-table tbody .row10 div{
+    background-color: transparent;
+}
+.specifications-table tbody .sharedcol , .specifications-table tbody .row10 .sharedcol{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: rgb(51, 51, 51);
+}
+.specifications-table tbody .row10 .sharedcol{
+    font-weight: 700;
+}
+.specifications-table tbody .row10 .col2{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.specifications-table tbody .row10 td{
+    border-bottom: 0;
+}
+.specifications-table tbody .row9 .sharedcol{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+    color: rgb(51, 51, 51);
+}
+.specifications-table tbody td{
+    border-bottom: 1px solid rgb(218, 222, 227);
+}
+.specifications-subsec3{
+    margin-top: 48px;
+    color: rgb(0, 201, 80);
+    padding: 16px 32px;
+    background-color: white;
+    border:1px solid rgb(229, 231, 235) ;
+    border-radius: 15px;
+}
+.specifications-subsec3 img{
+    width: 25px;
+    filter: brightness(0) saturate(100%) invert(54%) sepia(24%) saturate(4926%) hue-rotate(108deg) brightness(100%) contrast(101%);
+    margin-right: 12px;
+}
+.specifications-subsec3 .line1{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+    color: rgb(0, 166, 62);   
+}
+.specifications-subsec3 .line2{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: rgb(0, 166, 62);   
+}
+/* end of specifications section */
+/* start of Rating & Reviews section */
+.ReviewsSection-sec{
+    padding: 80px 24px;
+    /* position: relative; */
+}
+.ReviewsSection-subsec1{
+    margin-bottom: 64px;
+}
+.ReviewsSection-subsec2{
+    padding: 32px;
+    border: 2px solid rgb(229, 231, 235);
+    border-radius: 20px;
+    width: 25%;
+    position: sticky;
+    /* left: 0; */
+    top: 32px;
+}
+.ReviewsSection-subsec2 .sub1{
+    margin-bottom: 32px;
+}
+.ReviewsSection-subsec2 .sub1 h1{
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 700;
+    color: rgb(51, 51, 51); 
+    margin-bottom: 8px;
+}
+.ReviewsSection-subsec2 .sub1 img{
+    width: 23px;
+    filter: brightness(0) saturate(100%) invert(71%) sepia(55%) saturate(1864%) hue-rotate(3deg) brightness(108%) contrast(102%);
+    margin-bottom: 8px;
+    margin-right: 4px;
+}
+.ReviewsSection-subsec2 .sub1 p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: rgb(51, 51, 51); 
+}
+.ReviewsSection-subsec2 .sub2 .sub{
+    margin-bottom: 16px;
+}
+.ReviewsSection-subsec2 .sub2 .sub .span1{
+    margin-right: 12px;
+}
+.ReviewsSection-subsec2 .sub2 .sub div{
+    margin-right: 12px;
+    width: 65%;
+    height: 12px;
+    background-color: rgb(229, 231, 235);
+    border-radius: 20px;
+}
+.ReviewsSection-subsec2 .sub2 .sub div
+div{
+    background-color: rgb(240, 177, 0);
+    border-radius: 20px;
+}
+.ReviewsSection-subsec2 .sub2 .sub1 div
+div{
+    width: 78%;
+}
+.ReviewsSection-subsec2 .sub2 .subb2 div
+div{
+    width: 15%;
+}
+.ReviewsSection-subsec2 .sub2 .sub3 div
+div{
+    width: 5%;
+}
+.ReviewsSection-subsec2 .sub2 .sub4 div
+div{
+    width: 1.5%;
+}
+.ReviewsSection-subsec2 .sub2 .sub5 div
+div{
+    width: 0.5%;
+}
+.ReviewsSection-subsec2 .subb3{
+    border-top: 1px solid rgb(209, 213, 220);
+    margin-top: 32px;
+    padding-top: 24px;
+}
+.ReviewsSection-subsec2 .subb3 div{
+    width: 49%;
+}
+.ReviewsSection-subsec2 .subb3 div h1{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    color: rgb(51, 51, 51); 
+}
+.ReviewsSection-subsec2 .subb3 div p{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: rgb(51, 51, 51); 
+}
+.ReviewsSection-subsec3{
+    width: 65.5%;
+    /* border-radius: 15px; */
+}
+.ReviewsSection-subsec3 .div1{
+    border:2px solid rgb(229, 231, 235);
+    border-radius: 15px;
+    padding: 32px;
+    margin-bottom: 24px;
+}
+/* .ReviewsSection-subsec3 .subdiv1 div{
+    margin-bottom: 24px;
+    margin-top: 0;
+} */
+.ReviewsSection-subsec3 .subdiv1 .avatar{
+    width: 52px;
+    height: 52px;
+    border: 2px solid rgb(166, 132, 255);
+    border-radius: 50%;
+    margin-right: 16px;
+}
+.ReviewsSection-subsec3 .subdiv1 div div img{
+    margin-top: 10px;
+    /* float: left; */
+    /* text-align: left; */
+    width: 16px;
+    filter: brightness(0) saturate(100%) invert(71%) sepia(55%) saturate(1864%) hue-rotate(3deg) brightness(108%) contrast(102%);
+}
+.ReviewsSection-subsec3 .subdiv1 div div{
+    margin-right: 8px;
+}
+/* .ReviewsSection-subsec3 .subdiv1 .right-div{
+    margin-top: 16px;
+} */
+.ReviewsSection-subsec3 .subdiv1 .right-div span{
+    padding: 4px 12px;
+    background-color: rgb(237, 233, 254);
+    color: rgb(93, 14, 192);
+    border-radius: 20px;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 600;
+}
+.ReviewsSection-subsec3 .subdiv1 .right-div p{
+    margin-top: 4px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+}
+.ReviewsSection-subsec3 .subdiv1 h3{
+    padding-bottom: 4px;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+}
+.ReviewsSection-subsec3 .subdiv2{
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-size: 18px;
+    line-height: 29px;
+    font-weight: 400;
+    text-align: left;
+}
+.ReviewsSection-subsec3 .div2{
+    padding-top: 32px;
+}
+.ReviewsSection-subsec3 .div2 button , .RelatedProducts-sec .subsec3 button{
+    padding: 12px 32px;
+    color: white;
+    border: 2px solid rgb(142, 81, 255);
+    border-radius: 30px;
+    background: rgb(142, 81, 255);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+/* end of Rating & Reviews section */
+
+/* start of Related Products section  */
+.RelatedProducts-sec{
+    background-color: rgb(247, 245, 255);
+    padding: 80px 24px;
+}
+.RelatedProducts-sec .subsec1{
+    margin-bottom: 64px;
+}
+.RelatedProducts-sec .subsec2-div1{
+    width: 18.5%;
+    padding: 24px;
+    border-radius: 15px;
+    border: 2px solid rgb(229, 231, 235);
+    position: relative;
+    background-color: white;
+    text-align: left;
+}
+.RelatedProducts-sec .subsec2-div1 .sub1 img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 24px;
+    height: 192px;
+}
+.RelatedProducts-sec .subsec2-div1 .sub1 span{
+    z-index: 20;
+    position: absolute;
+    top: 36px;
+    left: 36px;
+    padding: 4px 12px;
+    border-radius: 20px;
+    background-color: rgb(0, 187, 167);
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.RelatedProducts-sec .subsec2-div1 h3{
+    margin-bottom: 8px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+}
+.RelatedProducts-sec .subsec2-div1 p{
+    margin-bottom: 16px;
+    line-height: 24px;
+}
+.RelatedProducts-sec .subsec2-div1 .sub2 span{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+}
+.RelatedProducts-sec .subsec2-div1 .sub2 button{
+    padding: 8px 16px;
+    border-radius: 30px;
+    background-color: rgb(142, 81, 255);
+    border-color: transparent;
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    /* text-align: right; */
+}
+.RelatedProducts-sec .subsec2-div1{
+    margin-right: 28px;
+}
+.RelatedProducts-sec .subsec2-div1.nomargin{
+    margin-right: 0;
+}
+.RelatedProducts-sec .subsec3{
+    margin-top: 48px;
+}
+.RelatedProducts-sec .subsec3 button{
+    background-color: transparent;
+    color:rgb(127, 34, 254);
+    padding: 16px 32px;
+}
+/* end of Related Products section  */
+
+/* start of footer section */
+.footer{
+    padding: 64px 24px 32px;
+    background-color: rgb(16, 24, 40);
+    color: white;
+}
+.footer-sec1 .sec1-div1 , .footer-sec1 .sec1-div2{
+    width: 23%;
+    /* background-color: aqua; */
+}
+.footer-sec1 .sec1-div1 .sub1{
+    margin-bottom: 24px;
+}
+.footer-sec1 .sec1-div1  span{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+}
+.footer-sec1 .sec1-div1 .left-sec-img{
+    margin-right: 3px;
+}
+.footer-sec1 .sec1-div1 p{
+    margin-bottom: 24px;
+    line-height: 24px;
+    color: white;
+}
+.footer-sec1 .sec1-div1 .sub2 div{
+    margin-right: 12px;
+    /* width: 40px;
+    height: 40px; */
+    padding: 7px 15px;
+    border-radius: 8px;
+    background-color:  oklch(27.8% .033 256.848);
+}
+.footer-sec1 .sec1-div1 .sub2 div .img1{
+    width: 10px;
+    filter: brightness(0) invert(1);
+    margin-top: 5px;
+}
+.footer-sec1 .sec1-div1 .sub2 div .img2{
+    width: 16px;
+    filter: brightness(0) invert(1);
+    margin-top: 5px;
+}
+.footer-sec1 .sec1-div1 .sub2 .div2{
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.footer-sec1 .sec1-div1 .sub2 div .img3{
+    width: 14px;
+    filter: brightness(0) invert(1);
+    margin-top: 5px;
+}
+.footer-sec1 .sec1-div1 .sub2 .div3{
+    padding-left: 13px;
+    padding-right: 13px;
+}
+.footer-sec1 .sec1-div1 .sub2 div .img4{
+    width: 18px;
+    filter: brightness(0) invert(1);
+    margin-top: 5px;
+}
+.footer-sec1 .sec1-div1 .sub2 .div4{
+    padding-left: 11px;
+    padding-right: 11px;
+}
+.footer-sec1 .sec1-div2 h3{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 24px;
+}
+.footer-sec1 .sec1-div2 ul{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: oklch(0.707 0.022 261.325);
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+.footer-sec1 .sec1-div2 li{
+    margin-bottom: 12px;
+}
+.footer-sec1 div{
+    margin-right: 25px;
+}
+.footer-sec1 .sec1-div2.div4{
+    margin-right: 0;
+} 
+.footer-sec1{
+    border-bottom: 1px solid oklch(27.8% .033 256.848);
+    padding-bottom: 48px;
+}
+.footer-sec2{
+    padding-top: 32px;
+}
+.footer-sec2 p{
+    color: white;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+}
+.footer-sec2 div div{
+    padding: 12px 12px 8px;
+    margin-right: 20px;
+    border-radius: 8px;
+    background-color: white;
+    /* margin-bottom: 0; */
+}
+.footer-sec2 div .div3{
+    margin-right: 0;
+}
+.footer-sec2 img{
+    height: 16px;
+    /* margin: 0; */
+}
+/* end of footer section */
